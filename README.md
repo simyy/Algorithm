@@ -7,7 +7,7 @@ record some algorithm in studying
 ##hash.cpp
 包含一些hash函数，包含加法哈希、乘法哈希、旋转哈希、32位FNV算法
 
->here are some hash functions in hash.cpp
+here are some hash functions in hash.cpp
 
 ##Consistent Hash
 C++实现的一致性哈希算法
