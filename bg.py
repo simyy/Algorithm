@@ -29,6 +29,7 @@ def bg(good_list, max_w):
             if j < g.w:
                 m[i][j] = m[i-1][j]
             else:
+                # g is not in max set
                 if m[i-1][j] > m[i-1][j-g.w] + g.v:
                     m[i][j] = m[i-1][j]
                 else:
